@@ -1,16 +1,40 @@
-# React + Vite
+# SpellInfo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A small site to display info about a gift that someone has recieved
 
-Currently, two official plugins are available:
+## Features
+- See the ingredients/items used 
+- Can see more info about each item
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- React
+- JavaScript (ES6+)
+- CSS 
 
-## React Compiler
+## Preview
+![Spell App Screenshots](./Screenshot 2026-05-30 013644.png) (./Screenshot 2026-05-30 013707.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## How to Run Locally
+1. Clone the repo
+2. Install dependencies:
+   npm install
+3. Start the app:
+   npm start
+4. Open http://localhost:3000
 
-## Expanding the ESLint configuration
+## Environment Setup 
+You’ll need a Spotify Developer account and API credentials.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Create a `.env` file and add:
+
+REACT_APP_CLIENT_ID=your_client_id
+REACT_APP_REDIRECT_URI=http://localhost:3000/
+
+## Challenges
+- Implementing Spotify OAuth authentication flow
+- Managing asynchronous API requests
+- Handling state between multiple React components
+
+## Notes
+- Requires Spotify authentication
+- Built as part of a Codecademy project
