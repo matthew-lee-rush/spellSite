@@ -17,25 +17,19 @@ Below are a few screenshots. Click any image to open the full-size version.
 
 <div style="display:flex;gap:16px;flex-wrap:wrap;justify-content:center;align-items:flex-start">
    <figure style="margin:0;">
-      <a href="src/assets/hero.png">
-         <img src="src/assets/hero.png" alt="App hero" width="360" />
+      <a href="src/assets/Screenshot 2026-05-30 013707.png">
+         <img src="src/assets/Screenshot 2026-05-30 013707.png" alt="App hero" width="360" />
       </a>
-      <figcaption style="text-align:center;color:#6b6375;margin-top:6px;">App hero</figcaption>
+      <figcaption style="text-align:center;color:#6b6375;margin-top:6px;"></figcaption>
    </figure>
 
    <figure style="margin:0;">
-      <a href="src/assets/Main%20flat.png">
-         <img src="src/assets/Main%20flat.png" alt="Background art" width="360" />
+      <a href="src/assets/Screenshot 2026-05-30 013644.png">
+         <img src="src/assets/Screenshot 2026-05-30 013644.png" alt="Background art" width="360" />
       </a>
-      <figcaption style="text-align:center;color:#6b6375;margin-top:6px;">Background art</figcaption>
+      <figcaption style="text-align:center;color:#6b6375;margin-top:6px;"></figcaption>
    </figure>
 
-   <figure style="margin:0;">
-      <a href="src/assets/mainDividerCropped.png">
-         <img src="src/assets/mainDividerCropped.png" alt="Divider" width="360" />
-      </a>
-      <figcaption style="text-align:center;color:#6b6375;margin-top:6px;">Section divider</figcaption>
-   </figure>
 </div>
 
 ## How to Run Locally
