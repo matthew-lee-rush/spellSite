@@ -1,8 +1,10 @@
 function ItemButton({ item, onClick }) {
   return (
-    <button onClick={onClick}>
-      {item.name}
-    </button>
+    <li>
+      <button className="item" type="button" onClick={onClick}>
+        {item.name}
+      </button>
+    </li>
   );
 }
 
